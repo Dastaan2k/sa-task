@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+}
+
+
+mat-form-field.mat-form-field-disabled,.mat-input-element:disabled,{
+  margin-left: -5px;
+  color: black;
+}
+
+.center-left-with-padding {
+  position: absolute;
+  left: 20px; top: 50%;
+  transform: translate(0,-50%);
+}
+
+.center-right-with-padding {
+  position: absolute;
+  right: 20px; top: 50%;
+  transform: translate(0,-50%);
+}
